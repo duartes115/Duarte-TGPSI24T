@@ -10,3 +10,6 @@ C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - Ginasio.pdb
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - Ginasio.exe.config
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form2.resources
+C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form3.resources
+C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form4.resources
+C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form5.resources

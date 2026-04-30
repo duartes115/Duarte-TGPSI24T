@@ -54,5 +54,10 @@ namespace Shion___Ginasio
             form2.Show();
             this.Hide();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -28,5 +28,10 @@ namespace Shion___Ginasio
             form1.Show();
             this.Hide();
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
