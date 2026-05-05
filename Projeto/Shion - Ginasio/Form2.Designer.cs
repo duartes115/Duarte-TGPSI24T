@@ -131,6 +131,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(536, 375);
             this.button1.Name = "button1";
@@ -143,7 +144,7 @@
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(15, 13);
+            this.textBox3.Location = new System.Drawing.Point(14, 12);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(207, 13);
             this.textBox3.TabIndex = 4;
@@ -151,7 +152,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Window;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.panel1.Location = new System.Drawing.Point(356, 186);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(237, 38);
@@ -161,7 +164,7 @@
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(15, 13);
+            this.textBox1.Location = new System.Drawing.Point(14, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(207, 13);
             this.textBox1.TabIndex = 4;
@@ -169,7 +172,9 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.Window;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.panel2.Location = new System.Drawing.Point(356, 255);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(237, 38);
@@ -179,7 +184,7 @@
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(15, 13);
+            this.textBox2.Location = new System.Drawing.Point(14, 12);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(207, 13);
             this.textBox2.TabIndex = 4;
@@ -187,7 +192,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Window;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.panel3.Location = new System.Drawing.Point(356, 322);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(237, 38);
