@@ -15,6 +15,20 @@ namespace Shion___Ginasio
         public Form1()
         {
             InitializeComponent();
+            label1.Parent = pictureBox1;
+            label1.BackColor = Color.Transparent;
+            label2.Parent = pictureBox1;
+            label2.BackColor = Color.Transparent;
+            label3.Parent = pictureBox1;
+            label3.BackColor = Color.Transparent;
+            label4.Parent = pictureBox1;
+            label4.BackColor = Color.Transparent;
+
+            label6.MouseEnter += label6_MouseEnter;
+            label6.MouseLeave += label6_MouseLeave;
+
+            label5.MouseEnter += label5_MouseEnter;
+            label5.MouseLeave += label5_MouseLeave;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -50,14 +64,77 @@ namespace Shion___Ginasio
 
         private void label5_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
-            form2.Show();
-            this.Hide();
+           
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        private void label6_MouseEnter(object sender, EventArgs e)
+        {
+            label6.ForeColor = Color.FromArgb(255, 128, 0); // quando o rato passa por cima
+        }
+
+        private void label6_MouseLeave(object sender, EventArgs e)
+        {
+            label6.ForeColor = Color.Black; // quando o rato sai
+        }
+        private void label5_MouseEnter(object sender, EventArgs e)
+        {
+            label5.ForeColor = Color.FromArgb(255, 128, 0); // quando o rato passa por cima
+        }
+
+        private void label5_MouseLeave(object sender, EventArgs e)
+        {
+            label5.ForeColor = Color.Black; // quando o rato sai
+        }
+
+
     }
 }

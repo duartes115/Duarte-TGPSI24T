@@ -16,3 +16,5 @@ C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form6.resources
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form7.resources
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form8.resources
+C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form9.resources
+C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form11.resources

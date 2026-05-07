@@ -10,33 +10,18 @@ using System.Windows.Forms;
 
 namespace Shion___Ginasio
 {
-    public partial class Form2 : Form
+    public partial class Form11 : Form
     {
-        public Form2()
+        public Form11()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label5_Click(object sender, EventArgs e)
         {
-            Form11 form11 = new Form11();
-            form11.Show();
+            Form2 form2 = new Form2();
+            form2.Show();
             this.Hide();
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
