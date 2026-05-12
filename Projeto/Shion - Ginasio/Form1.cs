@@ -15,15 +15,6 @@ namespace Shion___Ginasio
         public Form1()
         {
             InitializeComponent();
-            label1.Parent = pictureBox1;
-            label1.BackColor = Color.Transparent;
-            label2.Parent = pictureBox1;
-            label2.BackColor = Color.Transparent;
-            label3.Parent = pictureBox1;
-            label3.BackColor = Color.Transparent;
-            label4.Parent = pictureBox1;
-            label4.BackColor = Color.Transparent;
-
             label6.MouseEnter += label6_MouseEnter;
             label6.MouseLeave += label6_MouseLeave;
 
@@ -109,13 +100,18 @@ namespace Shion___Ginasio
 
         private void label6_Click(object sender, EventArgs e)
         {
-            
+            Form11 form11 = new Form11();
+            form11.Show();
+            this.Hide();
         }
 
         private void label5_Click_1(object sender, EventArgs e)
         {
-
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
         }
+
         private void label6_MouseEnter(object sender, EventArgs e)
         {
             label6.ForeColor = Color.FromArgb(255, 128, 0); // quando o rato passa por cima
@@ -125,6 +121,7 @@ namespace Shion___Ginasio
         {
             label6.ForeColor = Color.Black; // quando o rato sai
         }
+
         private void label5_MouseEnter(object sender, EventArgs e)
         {
             label5.ForeColor = Color.FromArgb(255, 128, 0); // quando o rato passa por cima
@@ -134,7 +131,6 @@ namespace Shion___Ginasio
         {
             label5.ForeColor = Color.Black; // quando o rato sai
         }
-
 
     }
 }
