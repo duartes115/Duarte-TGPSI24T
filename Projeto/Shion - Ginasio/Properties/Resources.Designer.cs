@@ -83,6 +83,26 @@ namespace Shion___Ginasio.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_14_05_2026__10_09_03 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 14_05_2026, 10_09_03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap crazy_sports_man_angry_expression__1__Photoroom {
+            get {
+                object obj = ResourceManager.GetObject("crazy-sports-man-angry-expression (1)-Photoroom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Heading {
             get {
                 object obj = ResourceManager.GetObject("Heading", resourceCulture);
@@ -136,6 +156,46 @@ namespace Shion___Ginasio.Properties {
         internal static System.Drawing.Bitmap mulhergym {
             get {
                 object obj = ResourceManager.GetObject("mulhergym", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Multimédia__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Multimédia (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Multimédia__3__1 {
+            get {
+                object obj = ResourceManager.GetObject("Multimédia (3) 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Multimédia__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("Multimédia (3)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Multimédia__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Multimédia (4)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

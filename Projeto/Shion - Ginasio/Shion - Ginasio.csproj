@@ -146,18 +146,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -180,10 +180,16 @@
     <None Include="Resources\Heading %283%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mulhergym.jpg" />
+    <None Include="Resources\crazy-sports-man-angry-expression %281%29-Photoroom.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ChatGPT Image 12_05_2026, 08_40_21.png" />
+    <None Include="Resources\ChatGPT Image 14_05_2026, 10_09_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Multimédia %283%29 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Multimédia %284%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

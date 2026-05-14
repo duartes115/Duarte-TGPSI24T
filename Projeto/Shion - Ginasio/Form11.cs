@@ -17,11 +17,31 @@ namespace Shion___Ginasio
             InitializeComponent();
         }
 
+        private void Form11_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
