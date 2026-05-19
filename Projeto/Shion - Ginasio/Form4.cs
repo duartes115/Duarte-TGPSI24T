@@ -15,6 +15,10 @@ namespace Shion___Ginasio
         public Form4()
         {
             InitializeComponent();
+
+
+            label5.MouseEnter += label5_MouseEnter;
+            label5.MouseLeave += label5_MouseLeave;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -29,7 +33,31 @@ namespace Shion___Ginasio
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form5 form5 = new Form5();
+            form5.Show();
+            this.Hide();
+        }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_MouseEnter(object sender, EventArgs e)
+        {
+            label5.ForeColor = Color.FromArgb(255, 128, 0);
+        }
+
+        private void label5_MouseLeave(object sender, EventArgs e)
+        {
+            label5.ForeColor = Color.Black;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6();
+            form6.Show();
+            this.Hide();
         }
     }
 }

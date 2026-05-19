@@ -114,23 +114,29 @@ namespace Shion___Ginasio
 
         private void label6_MouseEnter(object sender, EventArgs e)
         {
-            label6.ForeColor = Color.FromArgb(255, 128, 0); // quando o rato passa por cima
+            label6.ForeColor = Color.FromArgb(255, 128, 0); 
         }
 
         private void label6_MouseLeave(object sender, EventArgs e)
         {
-            label6.ForeColor = Color.Black; // quando o rato sai
+            label6.ForeColor = Color.Black; 
         }
 
         private void label5_MouseEnter(object sender, EventArgs e)
         {
-            label5.ForeColor = Color.FromArgb(255, 128, 0); // quando o rato passa por cima
+            label5.ForeColor = Color.FromArgb(255, 128, 0); 
         }
 
         private void label5_MouseLeave(object sender, EventArgs e)
         {
-            label5.ForeColor = Color.Black; // quando o rato sai
+            label5.ForeColor = Color.Black; 
         }
 
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6();
+            form6.Show();
+            this.Hide();
+        }
     }
 }
