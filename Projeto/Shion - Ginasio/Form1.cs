@@ -134,8 +134,8 @@ namespace Shion___Ginasio
 
         private void label1_Click_2(object sender, EventArgs e)
         {
-            Form6 form6 = new Form6();
-            form6.Show();
+            Form10 form10 = new Form10();
+            form10.Show();
             this.Hide();
         }
     }

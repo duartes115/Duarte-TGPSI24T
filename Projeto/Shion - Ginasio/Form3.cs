@@ -19,7 +19,9 @@ namespace Shion___Ginasio
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form11 form11 = new Form11();
+            form11.Show();
+            this.Hide();
         }
     }
 }

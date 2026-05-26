@@ -103,6 +103,26 @@ namespace Shion___Ginasio.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_26_05_2026__09_22_13 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 26_05_2026, 09_22_13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_26_05_2026__11_09_10 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 26_05_2026, 11_09_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap crazy_sports_man_angry_expression__1__Photoroom {
             get {
                 object obj = ResourceManager.GetObject("crazy-sports-man-angry-expression (1)-Photoroom", resourceCulture);

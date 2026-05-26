@@ -239,6 +239,7 @@
             this.guna2Button1.FillColor = System.Drawing.Color.DarkOrange;
             this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button1.IndicateFocus = true;
             this.guna2Button1.Location = new System.Drawing.Point(636, 395);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(237, 41);

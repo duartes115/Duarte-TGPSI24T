@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|c:\\users\\2224089\\onedrive - escola digital\\escola\\2\u00BAano\\psi\\shion - ginasio\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|solutionrelative:form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|c:\\users\\2224089\\onedrive - escola digital\\escola\\2\u00BAano\\psi\\shion - ginasio\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|solutionrelative:form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|c:\\users\\2224089\\onedrive - escola digital\\escola\\2\u00BAano\\psi\\shion - ginasio\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC9369E4-3324-474F-8289-E0860FE22851}|Shion - Ginasio.csproj|solutionrelative:form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,74 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form5.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form5.cs",
-              "RelativeDocumentMoniker": "Form5.cs",
-              "ToolTip": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form5.cs [Design]",
-              "RelativeToolTip": "Form5.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T09:58:40.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form3.cs",
-              "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form3.cs [Design]",
-              "RelativeToolTip": "Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T09:58:36.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form4.cs",
-              "DocumentMoniker": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form4.cs",
-              "RelativeDocumentMoniker": "Form4.cs",
-              "ToolTip": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form4.cs",
-              "RelativeToolTip": "Form4.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAApwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T09:10:15.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form4.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form4.cs",
-              "RelativeDocumentMoniker": "Form4.cs",
-              "ToolTip": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form4.cs [Design]",
-              "RelativeToolTip": "Form4.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T09:06:05.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T11:10:47.499Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form10.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form10.cs",
-              "RelativeDocumentMoniker": "Form10.cs",
-              "ToolTip": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form10.cs [Design]",
-              "RelativeToolTip": "Form10.cs [Design]",
+              "Title": "Form7.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form7.cs",
+              "RelativeDocumentMoniker": "Form7.cs",
+              "ToolTip": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form7.cs [Design]",
+              "RelativeToolTip": "Form7.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T09:10:20.152Z",
+              "WhenOpened": "2026-05-26T10:42:48.684Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form6.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form6.cs",
+              "RelativeDocumentMoniker": "Form6.cs",
+              "ToolTip": "C:\\Users\\2224089\\OneDrive - Escola Digital\\escola\\2\u00BAAno\\PSI\\Shion - Ginasio\\Form6.cs [Design]",
+              "RelativeToolTip": "Form6.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:42:46.925Z",
               "EditorCaption": " [Design]"
             }
           ]
