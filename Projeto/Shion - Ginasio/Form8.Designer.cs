@@ -58,7 +58,7 @@
             this.label1.Cursor = System.Windows.Forms.Cursors.Default;
             this.label1.Font = new System.Drawing.Font("Calibri", 30F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(200, 61);
+            this.label1.Location = new System.Drawing.Point(337, 165);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(377, 49);
             this.label1.TabIndex = 19;
@@ -73,7 +73,7 @@
             this.label2.Cursor = System.Windows.Forms.Cursors.Default;
             this.label2.Font = new System.Drawing.Font("Calibri", 30F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(62, 150);
+            this.label2.Location = new System.Drawing.Point(199, 254);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(183, 49);
             this.label2.TabIndex = 20;
@@ -142,7 +142,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Calibri", 25F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(340, 312);
+            this.label3.Location = new System.Drawing.Point(477, 416);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(153, 41);
             this.label3.TabIndex = 31;
@@ -207,7 +207,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Calibri", 25F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(358, 188);
+            this.label4.Location = new System.Drawing.Point(495, 292);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 41);
             this.label4.TabIndex = 34;
@@ -220,7 +220,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Calibri", 25F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(358, 251);
+            this.label5.Location = new System.Drawing.Point(495, 355);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(96, 41);
             this.label5.TabIndex = 30;
@@ -233,7 +233,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Calibri", 27F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(420, 123);
+            this.label6.Location = new System.Drawing.Point(557, 227);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(311, 44);
             this.label6.TabIndex = 29;
@@ -258,7 +258,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Shion___Ginasio.Properties.Resources.Heading__3_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1074, 659);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
