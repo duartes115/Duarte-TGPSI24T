@@ -67,5 +67,10 @@ namespace Shion___Ginasio
             form7.Show();
             this.Hide();
         }
+
+        private void Form8_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
