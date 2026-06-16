@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Shion___Ginasio
 {
-    public partial class Form9 : Form
+    public partial class Form12 : Form
     {
-        public Form9()
+        public Form12()
         {
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button1_Click_1(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
