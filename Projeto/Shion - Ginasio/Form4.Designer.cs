@@ -72,7 +72,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(666, 545);
+            this.button2.Location = new System.Drawing.Point(667, 545);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(275, 52);
             this.button2.TabIndex = 17;
@@ -88,9 +88,9 @@
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(922, 21);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(140, 24);
+            this.label5.Size = new System.Drawing.Size(146, 24);
             this.label5.TabIndex = 1;
-            this.label5.Text = "Esquecer Conta";
+            this.label5.Text = "Terminar Sessão";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // panel1

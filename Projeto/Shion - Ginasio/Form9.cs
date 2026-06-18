@@ -26,5 +26,24 @@ namespace Shion___Ginasio
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(textBox1.Text))
+            {
+                label3.Visible = false;
+            }
+            else
+            {
+                label3.Visible = true;
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Form7 form7 = new Form7();
+            form7.Show();
+            this.Hide();
+        }
     }
 }

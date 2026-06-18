@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,11 @@ namespace Shion___Ginasio
 {
     public partial class Form1 : Form
     {
+        SqlConnection conect = new SqlConnection(
+
+     @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
+
+
         public Form1()
         {
             InitializeComponent();
@@ -134,8 +140,8 @@ namespace Shion___Ginasio
 
         private void label1_Click_2(object sender, EventArgs e)
         {
-            Form8 form8 = new Form8();
-            form8.Show();
+            Form8 form9 = new Form8();
+            form9.Show();
             this.Hide();
         }
     }

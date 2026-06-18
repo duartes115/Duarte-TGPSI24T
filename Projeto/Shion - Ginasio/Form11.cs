@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -42,6 +43,65 @@ namespace Shion___Ginasio
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            string email = textBox1.Text;
+            string senha = textBox2.Text;
+
+            SqlConnection conect = new SqlConnection(
+                @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
+
+            try
+            {
+                conect.Open();
+
+                string query = @"SELECT estado
+                     FROM utilizadores
+                     WHERE email = @email
+                     AND senha = @senha";
+
+                SqlCommand cmd = new SqlCommand(query, conect);
+
+                cmd.Parameters.AddWithValue("@email", email);
+                cmd.Parameters.AddWithValue("@senha", senha);
+
+                object resultado = cmd.ExecuteScalar();
+
+                if (resultado == null)
+                {
+                    MessageBox.Show("Email ou senha incorretos.");
+                    return;
+                }
+
+                string estado = resultado.ToString();
+
+                if (estado == "Negado")
+                {
+                    MessageBox.Show("A sua conta ainda não foi aprovada.");
+
+                    Form3 form3 = new Form3();
+                    form3.Show();
+                    this.Hide();
+                }
+                else if (estado == "Aceite")
+                {
+                    MessageBox.Show("Login efetuado com sucesso!");
+
+                    Form4 form4 = new Form4();
+                    form4.Show();
+                    this.Hide();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conect.Close();
+            }
         }
     }
 }

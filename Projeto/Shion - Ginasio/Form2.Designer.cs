@@ -150,6 +150,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(226, 13);
             this.textBox1.TabIndex = 13;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label7
             // 
@@ -184,6 +185,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(237, 38);
             this.panel3.TabIndex = 10;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // label8
             // 
@@ -245,6 +247,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(237, 41);
             this.guna2Button1.TabIndex = 19;
             this.guna2Button1.Text = "Criar Conta";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Form2
             // 
@@ -263,7 +266,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "sq";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

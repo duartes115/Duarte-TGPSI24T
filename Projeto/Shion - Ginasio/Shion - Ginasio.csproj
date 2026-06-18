@@ -228,5 +228,8 @@
   <ItemGroup>
     <None Include="Resources\Multimédia %289%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 18_06_2026, 10_00_52.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

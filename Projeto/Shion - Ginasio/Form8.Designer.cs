@@ -80,11 +80,12 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Calibri", 27F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(722, 206);
+            this.label6.Location = new System.Drawing.Point(736, 206);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(311, 44);
             this.label6.TabIndex = 29;
             this.label6.Text = "Mudar Informações";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel4
             // 
@@ -263,7 +264,7 @@
             this.guna2Button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.IndicateFocus = true;
-            this.guna2Button3.Location = new System.Drawing.Point(0, 568);
+            this.guna2Button3.Location = new System.Drawing.Point(7, 568);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(162, 49);
             this.guna2Button3.TabIndex = 45;
@@ -283,7 +284,7 @@
             this.guna2Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.IndicateFocus = true;
-            this.guna2Button2.Location = new System.Drawing.Point(0, 513);
+            this.guna2Button2.Location = new System.Drawing.Point(7, 513);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(162, 49);
             this.guna2Button2.TabIndex = 46;

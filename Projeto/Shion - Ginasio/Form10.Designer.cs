@@ -94,7 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Shion___Ginasio.Properties.Resources.ChatGPT_Image_26_05_2026__11_09_10;
+            this.BackgroundImage = global::Shion___Ginasio.Properties.Resources.ChatGPT_Image_18_06_2026__10_00_52;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1074, 659);
             this.Controls.Add(this.guna2Button1);
