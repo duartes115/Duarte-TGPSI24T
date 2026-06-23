@@ -156,6 +156,7 @@
             this.guna2Button2.TabIndex = 57;
             this.guna2Button2.Text = "Remover Equipamento";
             this.guna2Button2.UseTransparentBackground = true;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2ComboBox1
             // 
@@ -171,6 +172,7 @@
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(256, 36);
             this.guna2ComboBox1.TabIndex = 58;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged_1);
             // 
             // comboBox1
             // 
@@ -216,6 +218,7 @@
             this.Controls.Add(this.panel4);
             this.Name = "Form9";
             this.Text = "Form9";
+            this.Load += new System.EventHandler(this.Form9_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

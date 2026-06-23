@@ -307,6 +307,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(237, 41);
             this.guna2Button1.TabIndex = 33;
             this.guna2Button1.Text = "Mudar Informação";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Form6
             // 

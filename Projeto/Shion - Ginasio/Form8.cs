@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace Shion___Ginasio
 {
     public partial class Form8 : Form
     {
+        private int idSelecionado = 0;
         public Form8()
         {
             InitializeComponent();
@@ -70,12 +72,170 @@ namespace Shion___Ginasio
 
         private void Form8_Load(object sender, EventArgs e)
         {
+            SqlConnection conect = new SqlConnection(
+        @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
 
+            try
+            {
+                conect.Open();
+
+                string query = "SELECT id, nome FROM utilizadores";
+
+                SqlCommand cmd = new SqlCommand(query, conect);
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                guna2ComboBox1.Items.Clear();
+
+                while (reader.Read())
+                {
+                    guna2ComboBox1.Items.Add(
+                        reader["id"].ToString() + " - " +
+                        reader["nome"].ToString());
+                }
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conect.Close();
+            }
         }
 
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+        
+        
+            
+       
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            string item = guna2ComboBox1.SelectedItem.ToString();
+
+            idSelecionado = int.Parse(item.Split('-')[0].Trim());
+
+            SqlConnection conect = new SqlConnection(
+                @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
+
+            try
+            {
+                conect.Open();
+
+                string query = @"SELECT nome, email, senha
+                         FROM utilizadores
+                         WHERE id = @id";
+
+                SqlCommand cmd = new SqlCommand(query, conect);
+
+                cmd.Parameters.AddWithValue("@id", idSelecionado);
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    textBox1.Text = reader["nome"].ToString();
+                    textBox2.Text = reader["email"].ToString();
+                    textBox3.Text = reader["senha"].ToString();
+                }
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conect.Close();
+            }
+
+        }
+
+        private void guna2Button3_Click_1(object sender, EventArgs e)
+        {
+            SqlConnection conect = new SqlConnection(
+        @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
+
+            try
+            {
+                conect.Open();
+
+                string query = @"DELETE FROM utilizadores
+                         WHERE id = @id";
+
+                SqlCommand cmd = new SqlCommand(query, conect);
+
+                cmd.Parameters.AddWithValue("@id", idSelecionado);
+
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Utilizador removido.");
+
+                guna2ComboBox1.Items.Remove(
+                    guna2ComboBox1.SelectedItem);
+
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox3.Clear();
+
+                idSelecionado = 0;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conect.Close();
+            }
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            SqlConnection conect = new SqlConnection(
+        @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
+
+            try
+            {
+                conect.Open();
+
+                string query = @"UPDATE utilizadores
+                         SET nome = @nome,
+                             email = @email,
+                             senha = @senha
+                         WHERE id = @id";
+
+                SqlCommand cmd = new SqlCommand(query, conect);
+
+                cmd.Parameters.AddWithValue("@nome", textBox1.Text);
+                cmd.Parameters.AddWithValue("@email", textBox2.Text);
+                cmd.Parameters.AddWithValue("@senha", textBox3.Text);
+                cmd.Parameters.AddWithValue("@id", idSelecionado);
+
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Utilizador atualizado.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conect.Close();
+            }
         }
     }
 }

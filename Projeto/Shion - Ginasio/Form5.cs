@@ -12,9 +12,11 @@ namespace Shion___Ginasio
 {
     public partial class Form5 : Form
     {
-        public Form5()
+        private string emailLogado;
+        public Form5(string email)
         {
             InitializeComponent();
+            emailLogado = email;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -29,9 +31,14 @@ namespace Shion___Ginasio
 
         private void label5_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            Form4 form4 = new Form4(emailLogado);
             form4.Show();
             this.Hide();
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -87,7 +87,7 @@
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(298, 53);
             this.guna2Button1.TabIndex = 22;
-            this.guna2Button1.Text = "Esquecer Conta";
+            this.guna2Button1.Text = "Terminar Sessão";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Form10

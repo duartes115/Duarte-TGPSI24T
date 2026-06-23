@@ -20,7 +20,9 @@ namespace Shion___Ginasio
 
         private void Form11_Load(object sender, EventArgs e)
         {
+            textBox2.UseSystemPasswordChar = true;
 
+            checkBox1.Checked = false;
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -49,6 +51,15 @@ namespace Shion___Ginasio
         {
             string email = textBox1.Text;
             string senha = textBox2.Text;
+
+           
+            if (email == "admin@gmail.com" && senha == "admin")
+            {
+                Form7 form7 = new Form7();
+                form7.Show();
+                this.Hide();
+                return;
+            }
 
             SqlConnection conect = new SqlConnection(
                 @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
@@ -81,15 +92,17 @@ namespace Shion___Ginasio
                 {
                     MessageBox.Show("A sua conta ainda não foi aprovada.");
 
-                    Form3 form3 = new Form3();
-                    form3.Show();
+                    Form4 form4 = new Form4(email);
+
+                    form4.Show();
                     this.Hide();
                 }
                 else if (estado == "Aceite")
                 {
                     MessageBox.Show("Login efetuado com sucesso!");
 
-                    Form4 form4 = new Form4();
+                    Form4 form4 = new Form4(email);
+                    
                     form4.Show();
                     this.Hide();
                 }
@@ -102,6 +115,11 @@ namespace Shion___Ginasio
             {
                 conect.Close();
             }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox2.UseSystemPasswordChar = !checkBox1.Checked;
         }
     }
 }

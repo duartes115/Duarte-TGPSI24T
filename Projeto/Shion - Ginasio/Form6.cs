@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
@@ -14,10 +15,14 @@ namespace Shion___Ginasio
 {
     public partial class Form6 : Form
     {
-        public Form6()
-        {
+        private string emailLogado;
 
+     
+        
+        public Form6(string email)
+        {
             InitializeComponent();
+            emailLogado = email;
             textBox1.BackColor = Color.Black;
             textBox1.ForeColor = Color.White;
 
@@ -110,7 +115,7 @@ namespace Shion___Ginasio
 
         private void label5_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            Form4 form4 = new Form4(emailLogado);
             form4.Show();
             this.Hide();
         }
@@ -119,5 +124,83 @@ namespace Shion___Ginasio
         {
 
         }
+
+       
+            private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            string nome = textBox1.Text;
+            string email = textBox2.Text;
+            string senhaAtual = textBox3.Text;
+            string novaSenha = textBox4.Text;
+            string confirmarNovaSenha = textBox5.Text;
+
+            if (email != emailLogado)
+            {
+                MessageBox.Show("O email não corresponde à conta atual.");
+                return;
+            }
+
+            if (novaSenha != confirmarNovaSenha)
+            {
+                MessageBox.Show("As novas senhas não coincidem.");
+                return;
+            }
+
+            SqlConnection conect = new SqlConnection(
+                @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
+
+            try
+            {
+                conect.Open();
+
+                string verificar = @"SELECT COUNT(*)
+                             FROM utilizadores
+                             WHERE nome = @nome
+                             AND email = @email
+                             AND senha = @senha";
+
+                SqlCommand checkCmd = new SqlCommand(verificar, conect);
+
+                checkCmd.Parameters.AddWithValue("@nome", nome);
+                checkCmd.Parameters.AddWithValue("@email", email);
+                checkCmd.Parameters.AddWithValue("@senha", senhaAtual);
+
+                int existe = (int)checkCmd.ExecuteScalar();
+
+                if (existe == 0)
+                {
+                    MessageBox.Show("Nome, email ou senha incorretos.");
+                    return;
+                }
+
+                string atualizar = @"UPDATE utilizadores
+                             SET senha = @novaSenha
+                             WHERE email = @email";
+
+                SqlCommand updateCmd = new SqlCommand(atualizar, conect);
+
+                updateCmd.Parameters.AddWithValue("@novaSenha", novaSenha);
+                updateCmd.Parameters.AddWithValue("@email", email);
+
+                updateCmd.ExecuteNonQuery();
+
+                MessageBox.Show("Senha alterada com sucesso!");
+
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox3.Clear();
+                textBox4.Clear();
+                textBox5.Clear();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conect.Close();
+            }
+        
+    }
     }
 }

@@ -249,6 +249,7 @@
             this.guna2Button1.TabIndex = 43;
             this.guna2Button1.Text = "Mudar Informações";
             this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
             // guna2Button3
             // 
@@ -270,6 +271,7 @@
             this.guna2Button3.TabIndex = 45;
             this.guna2Button3.Text = "Remover Membro";
             this.guna2Button3.UseTransparentBackground = true;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click_1);
             // 
             // guna2Button2
             // 
@@ -290,6 +292,7 @@
             this.guna2Button2.TabIndex = 46;
             this.guna2Button2.Text = "Informações Sobre a Conta";
             this.guna2Button2.UseTransparentBackground = true;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_1);
             // 
             // guna2ShadowPanel1
             // 
@@ -323,6 +326,7 @@
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(187, 36);
             this.guna2ComboBox1.TabIndex = 48;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // guna2ShadowPanel2
             // 

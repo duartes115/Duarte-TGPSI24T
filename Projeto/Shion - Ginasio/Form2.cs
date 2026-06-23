@@ -37,6 +37,9 @@ namespace Shion___Ginasio
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            textBox3.UseSystemPasswordChar = true; 
+
+            checkBox1.Checked = false; 
 
         }
 
@@ -63,85 +66,89 @@ namespace Shion___Ginasio
         private void guna2Button1_Click(object sender, EventArgs e)
         {
 
-            string nome = textBox2.Text;
-            string email = textBox1.Text;
-            string senha = textBox3.Text;
-
-            // Verifica se é Gmail
-            if (!email.EndsWith("@gmail.com"))
+                string nome = textBox2.Text;
+                string email = textBox1.Text;
+                string senha = textBox3.Text;
+            if (email.ToLower() == "admin@gmail.com")
             {
-                MessageBox.Show("O email deve terminar em @gmail.com");
+                MessageBox.Show("Este email já foi utilizado.");
                 return;
             }
-
-            SqlConnection conect = new SqlConnection(
-                @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
-
-            try
-            {
-                conect.Open();
-
-                // Verifica se o email já existe
-                string verificar = "SELECT COUNT(*) FROM utilizadores WHERE email = @email";
-
-                SqlCommand checkCmd = new SqlCommand(verificar, conect);
-                checkCmd.Parameters.AddWithValue("@email", email);
-
-                int existe = (int)checkCmd.ExecuteScalar();
-
-                if (existe > 0)
+            
+            if (!email.EndsWith("@gmail.com"))
                 {
-                    MessageBox.Show("Este email já está registado.");
+                    MessageBox.Show("O email deve terminar em @gmail.com");
                     return;
                 }
 
-                // Insere o utilizador
-                string query = @"INSERT INTO utilizadores (nome, email, senha)
-                     VALUES (@nome, @email, @senha)";
+                SqlConnection conect = new SqlConnection(
+                    @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
 
-                SqlCommand cmd = new SqlCommand(query, conect);
-
-                cmd.Parameters.AddWithValue("@nome", nome);
-                cmd.Parameters.AddWithValue("@email", email);
-                cmd.Parameters.AddWithValue("@senha", senha);
-
-                cmd.ExecuteNonQuery();
-
-                // Buscar o estado do utilizador
-                string sqlEstado = "SELECT estado FROM utilizadores WHERE email = @email";
-
-                SqlCommand estadoCmd = new SqlCommand(sqlEstado, conect);
-                estadoCmd.Parameters.AddWithValue("@email", email);
-
-                string estado = estadoCmd.ExecuteScalar().ToString();
-
-                MessageBox.Show("Conta criada com sucesso!");
-
-                if (estado == "Negado")
+                try
                 {
-                    Form3 form3 = new Form3();
+                    conect.Open();
+
+                    
+                    string verificar = "SELECT COUNT(*) FROM utilizadores WHERE email = @email";
+
+                    SqlCommand checkCmd = new SqlCommand(verificar, conect);
+                    checkCmd.Parameters.AddWithValue("@email", email);
+
+                    int existe = (int)checkCmd.ExecuteScalar();
+
+                    if (existe > 0)
+                    {
+                        MessageBox.Show("Este email já está registado.");
+                        return;
+                    }
+
+                    
+                    string query = @"INSERT INTO utilizadores (nome, email, senha)
+                         VALUES (@nome, @email, @senha)";
+
+                    SqlCommand cmd = new SqlCommand(query, conect);
+
+                    cmd.Parameters.AddWithValue("@nome", nome);
+                    cmd.Parameters.AddWithValue("@email", email);
+                    cmd.Parameters.AddWithValue("@senha", senha);
+
+                    cmd.ExecuteNonQuery();
+
+                    
+                    string sqlEstado = "SELECT estado FROM utilizadores WHERE email = @email";
+
+                    SqlCommand estadoCmd = new SqlCommand(sqlEstado, conect);
+                    estadoCmd.Parameters.AddWithValue("@email", email);
+
+                    string estado = estadoCmd.ExecuteScalar().ToString();
+
+                    MessageBox.Show("Conta criada com sucesso!");
+
+                    if (estado == "Negado")
+                    {
+                    Form3 form3 = new Form3(email, senha);
                     form3.Show();
                     this.Hide();
-                }
-                else if (estado == "Aceite")
-                {
-                    Form4 form4 = new Form4();
-                    form4.Show();
-                    this.Hide();
-                }
+                    }
+                    
 
-                textBox1.Clear();
-                textBox2.Clear();
-                textBox3.Clear();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                conect.Close();
-            }
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    textBox3.Clear();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+                    conect.Close();
+                }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox3.UseSystemPasswordChar = !checkBox1.Checked;
         }
     }
 }
