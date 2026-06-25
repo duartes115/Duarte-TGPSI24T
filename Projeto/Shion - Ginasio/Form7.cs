@@ -52,5 +52,19 @@ namespace Shion___Ginasio
             form9.Show();
             this.Hide();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Form12 form12 = new Form12();
+            form12.Show();
+            this.Hide();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            Form13 form13 = new Form13();
+            form13.Show();
+            this.Hide();
+        }
     }
 }

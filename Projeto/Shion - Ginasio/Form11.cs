@@ -92,9 +92,9 @@ namespace Shion___Ginasio
                 {
                     MessageBox.Show("A sua conta ainda não foi aprovada.");
 
-                    Form4 form4 = new Form4(email);
+                    Form3 form3 = new Form3(email, senha);
 
-                    form4.Show();
+                    form3.Show();
                     this.Hide();
                 }
                 else if (estado == "Aceite")

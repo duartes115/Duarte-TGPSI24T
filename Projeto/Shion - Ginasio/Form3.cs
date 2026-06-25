@@ -72,5 +72,10 @@ namespace Shion___Ginasio
         {
             
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

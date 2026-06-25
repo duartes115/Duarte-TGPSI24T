@@ -17,6 +17,7 @@ namespace Shion___Ginasio
         public Form9()
         {
             InitializeComponent();
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

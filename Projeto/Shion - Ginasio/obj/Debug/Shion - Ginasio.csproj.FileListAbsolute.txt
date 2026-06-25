@@ -22,3 +22,4 @@ C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\bin
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - .C8BC6B63.Up2Date
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form10.resources
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form12.resources
+C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form13.resources

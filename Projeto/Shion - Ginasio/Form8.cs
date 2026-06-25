@@ -73,7 +73,7 @@ namespace Shion___Ginasio
         private void Form8_Load(object sender, EventArgs e)
         {
             SqlConnection conect = new SqlConnection(
-        @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
+@"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
 
             try
             {
@@ -113,7 +113,12 @@ namespace Shion___Ginasio
 
         private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (guna2ComboBox1.SelectedItem == null)
+                return;
 
+            string item = guna2ComboBox1.SelectedItem.ToString();
+
+            idSelecionado = int.Parse(item.Split('-')[0].Trim());
         }
         
         
@@ -122,12 +127,14 @@ namespace Shion___Ginasio
 
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
-            string item = guna2ComboBox1.SelectedItem.ToString();
-
-            idSelecionado = int.Parse(item.Split('-')[0].Trim());
+            if (idSelecionado == 0)
+            {
+                MessageBox.Show("Seleciona um utilizador.");
+                return;
+            }
 
             SqlConnection conect = new SqlConnection(
-                @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
+        @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
 
             try
             {
@@ -165,6 +172,12 @@ namespace Shion___Ginasio
 
         private void guna2Button3_Click_1(object sender, EventArgs e)
         {
+            if (idSelecionado == 0)
+            {
+                MessageBox.Show("Seleciona um utilizador.");
+                return;
+            }
+
             SqlConnection conect = new SqlConnection(
         @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
 
@@ -172,19 +185,22 @@ namespace Shion___Ginasio
             {
                 conect.Open();
 
-                string query = @"DELETE FROM utilizadores
-                         WHERE id = @id";
+                // se tiver pedidos, apaga primeiro (evita erro FK)
+                string deletePedidos = @"DELETE FROM pedidos WHERE idUtilizador = @id";
 
-                SqlCommand cmd = new SqlCommand(query, conect);
+                SqlCommand cmd1 = new SqlCommand(deletePedidos, conect);
+                cmd1.Parameters.AddWithValue("@id", idSelecionado);
+                cmd1.ExecuteNonQuery();
 
-                cmd.Parameters.AddWithValue("@id", idSelecionado);
+                string deleteUser = @"DELETE FROM utilizadores WHERE id = @id";
 
-                cmd.ExecuteNonQuery();
+                SqlCommand cmd2 = new SqlCommand(deleteUser, conect);
+                cmd2.Parameters.AddWithValue("@id", idSelecionado);
+                cmd2.ExecuteNonQuery();
 
                 MessageBox.Show("Utilizador removido.");
 
-                guna2ComboBox1.Items.Remove(
-                    guna2ComboBox1.SelectedItem);
+                guna2ComboBox1.Items.Remove(guna2ComboBox1.SelectedItem);
 
                 textBox1.Clear();
                 textBox2.Clear();
@@ -204,6 +220,12 @@ namespace Shion___Ginasio
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
+            if (idSelecionado == 0)
+            {
+                MessageBox.Show("Seleciona um utilizador.");
+                return;
+            }
+
             SqlConnection conect = new SqlConnection(
         @"Server=(localdb)\MSSQLLocalDB;Database=ShionDB;Trusted_Connection=True;");
 

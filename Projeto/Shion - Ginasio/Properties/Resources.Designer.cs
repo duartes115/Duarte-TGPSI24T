@@ -213,6 +213,16 @@ namespace Shion___Ginasio.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Multimédia__10_ {
+            get {
+                object obj = ResourceManager.GetObject("Multimédia (10)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Multimédia__3_ {
             get {
                 object obj = ResourceManager.GetObject("Multimédia (3)", resourceCulture);

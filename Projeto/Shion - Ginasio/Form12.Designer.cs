@@ -70,6 +70,7 @@
             this.guna2Button2.TabIndex = 58;
             this.guna2Button2.Text = "Aceitar Pedido";
             this.guna2Button2.UseTransparentBackground = true;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2ComboBox1
             // 
@@ -85,6 +86,7 @@
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(271, 36);
             this.guna2ComboBox1.TabIndex = 59;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // guna2Button1
             // 
@@ -105,6 +107,7 @@
             this.guna2Button1.TabIndex = 60;
             this.guna2Button1.Text = "Rejeitar Pedido";
             this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // panel3
             // 
@@ -137,11 +140,11 @@
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(60, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(188, 22);
             this.label2.TabIndex = 15;
-            this.label2.Text = "label2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
@@ -193,11 +196,11 @@
             // 
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label7.Location = new System.Drawing.Point(60, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(188, 22);
             this.label7.TabIndex = 15;
-            this.label7.Text = "label7";
             // 
             // label8
             // 
@@ -259,6 +262,7 @@
             this.Controls.Add(this.guna2Button2);
             this.Name = "Form12";
             this.Text = "Form12";
+            this.Load += new System.EventHandler(this.Form12_Load);
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
