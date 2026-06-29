@@ -184,7 +184,7 @@
             this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(96, 6);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(219, 19);
+            this.textBox1.Size = new System.Drawing.Size(240, 19);
             this.textBox1.TabIndex = 13;
             // 
             // comboBox1
@@ -226,7 +226,7 @@
             this.textBox2.ForeColor = System.Drawing.Color.Black;
             this.textBox2.Location = new System.Drawing.Point(128, 7);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(131, 19);
+            this.textBox2.Size = new System.Drawing.Size(208, 19);
             this.textBox2.TabIndex = 13;
             // 
             // textBox3
@@ -295,7 +295,7 @@
             this.textBox5.ForeColor = System.Drawing.Color.Black;
             this.textBox5.Location = new System.Drawing.Point(99, 6);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(232, 19);
+            this.textBox5.Size = new System.Drawing.Size(247, 19);
             this.textBox5.TabIndex = 13;
             // 
             // Form13

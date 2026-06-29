@@ -37,6 +37,9 @@ namespace Shion___Ginasio
 
             textBox5.BackColor = Color.Black;
             textBox5.ForeColor = Color.White;
+
+            label5.MouseEnter += label5_MouseEnter;
+            label5.MouseLeave += label5_MouseLeave;
         }
 
         private void Form6_Load(object sender, EventArgs e)
@@ -111,6 +114,15 @@ namespace Shion___Ginasio
         private void button2_Click(object sender, EventArgs e)
         {
 
+        }
+        private void label5_MouseEnter(object sender, EventArgs e)
+        {
+            label5.ForeColor = Color.FromArgb(255, 128, 0);
+        }
+
+        private void label5_MouseLeave(object sender, EventArgs e)
+        {
+            label5.ForeColor = Color.Black;
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -201,6 +213,7 @@ namespace Shion___Ginasio
                 conect.Close();
             }
         
-    }
+        }
+
     }
 }
