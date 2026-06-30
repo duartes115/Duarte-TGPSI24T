@@ -114,12 +114,12 @@ namespace Shion___Ginasio
         }
         private void label7_MouseEnter(object sender, EventArgs e)
         {
-            label5.ForeColor = Color.FromArgb(255, 128, 0);
+            label7.ForeColor = Color.FromArgb(255, 128, 0);
         }
 
         private void label7_MouseLeave(object sender, EventArgs e)
         {
-            label5.ForeColor = Color.Black;
+            label7.ForeColor = Color.Black;
         }
 
         private void label7_Click(object sender, EventArgs e)

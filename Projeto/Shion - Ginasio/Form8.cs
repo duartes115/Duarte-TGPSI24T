@@ -185,7 +185,7 @@ namespace Shion___Ginasio
             {
                 conect.Open();
 
-                // se tiver pedidos, apaga primeiro (evita erro FK)
+              
                 string deletePedidos = @"DELETE FROM pedidos WHERE idUtilizador = @id";
 
                 SqlCommand cmd1 = new SqlCommand(deletePedidos, conect);

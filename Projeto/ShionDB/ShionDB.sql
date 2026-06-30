@@ -89,5 +89,6 @@ CREATE TABLE personal_trainers (
 GO
 
 SELECT * FROM personal_trainers;
+SELECT * FROM pedidos;
 
 

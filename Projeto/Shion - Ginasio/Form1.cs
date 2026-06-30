@@ -138,11 +138,6 @@ namespace Shion___Ginasio
             label5.ForeColor = Color.Black; 
         }
 
-        private void label1_Click_2(object sender, EventArgs e)
-        {
-            Form8 form9 = new Form8();
-            form9.Show();
-            this.Hide();
-        }
+        
     }
 }

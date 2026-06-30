@@ -24,3 +24,29 @@ C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form12.resources
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form13.resources
 C:\Users\2224089\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form14.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\bin\Debug\Shion - Ginasio.exe.config
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\bin\Debug\Shion - Ginasio.exe
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\bin\Debug\Shion - Ginasio.pdb
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\bin\Debug\Guna.UI2.dll
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - Ginasio.csproj.AssemblyReference.cache
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - Ginasio.exe.config
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form1.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form10.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form11.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form12.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form13.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form14.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form2.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form3.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form4.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form5.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form6.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form7.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form8.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Form9.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion___Ginasio.Properties.Resources.resources
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - Ginasio.csproj.GenerateResource.cache
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - Ginasio.csproj.CoreCompileInputs.cache
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - .C8BC6B63.Up2Date
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - Ginasio.exe
+C:\Users\duart\OneDrive - Escola Digital\escola\2ºAno\PSI\Shion - Ginasio\obj\Debug\Shion - Ginasio.pdb
