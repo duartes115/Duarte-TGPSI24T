@@ -104,4 +104,4 @@ String de ligação utilizada:
 
 ## Autor
 
-Projeto desenvolvido fazendo gestão de um ginásio utilizando C# e SQL Server.
+Projeto desenvolvido por Duarte Sousa, o objetivo é fazer gestão de um ginásio utilizando C# e SQL Server.
