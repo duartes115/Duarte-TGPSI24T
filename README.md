@@ -16,7 +16,6 @@ O sistema permite o registo e autenticação de utilizadores, aprovação de con
 * Criar conta.
 * Login.
 * Alterar palavra-passe.
-* Eliminar a própria conta.
 * Estado da conta (**Negado** ou **Aceite**).
 
 ### Administrador
